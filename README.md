@@ -1,2 +1,2 @@
 # Spin
- Yandex.Game
+ For Yandex.Game
