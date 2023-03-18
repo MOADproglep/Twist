@@ -1,2 +1,2 @@
-# Spin
+# Twist
  For Yandex.Game
