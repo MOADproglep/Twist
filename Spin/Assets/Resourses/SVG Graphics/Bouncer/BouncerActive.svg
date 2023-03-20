@@ -3,11 +3,10 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#7178B8;stroke:#F3A6C9;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st1{opacity:0.39;fill:#C293C2;}
+	.st0{fill:#F3A6C9;}
+	.st1{fill:none;stroke:#58529F;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<g>
-	<line class="st0" x1="140.67" y1="420.5" x2="455.33" y2="420.5"/>
-	<circle class="st1" cx="298" cy="420.5" r="28.75"/>
-</g>
+<rect x="222.89" y="411.01" class="st0" width="150.22" height="38.53"/>
+<path class="st0" d="M434.27,411.01H161.73v-15.57c0-6.62,5.36-11.98,11.98-11.98h248.57c6.62,0,11.98,5.36,11.98,11.98V411.01z"/>
+<line class="st1" x1="106" y1="449.54" x2="490" y2="449.54"/>
 </svg>
