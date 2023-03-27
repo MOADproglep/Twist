@@ -5,30 +5,41 @@ using System.Collections;
 
 namespace Assets.Scripts.Components
 {
-    public class LoadSceneComponent : MonoBehaviour //ДАНЯ загрузку тута делать 
+    public class LoadSceneComponent : MonoBehaviour 
     {
         [Space][Header("Animation Transite Settings")]
         public Animator animationTransitScene;
         public float transitionTime;//Time delay for animation
 
-        //public UnityEvent OnFinishLevel;
+        [Space][Header("Loaded Scene")]
+        public string sceneName;
 
         public void OnTrigerFinish()
         {
-            //OnFinishLevel?.Invoke();
-            //Bloc1_Level2.Load();
-
-            StartCoroutine(LoadSceneAnimationtransite());
+            StartCoroutine(LoadSceneAnimationtransite(sceneName));
         }
 
         
-       IEnumerator LoadSceneAnimationtransite()//тут нужно будет скорее всего передать аргумент для конкретной сцены
+       IEnumerator LoadSceneAnimationtransite(string nextSceneLoad)
         {
             animationTransitScene.SetTrigger("Start");
             yield return new WaitForSeconds(transitionTime);
 
 
-            Bloc1_Level2.Load();//вот это место нужно будет заменить 
+            switch (nextSceneLoad)// crutch xD
+            {
+                case "Bloc1_Level1":
+                    Bloc1_Level1.Load();
+                    break;
+                case "Bloc1_Level2":
+                    Bloc1_Level2.Load();
+                    break;
+                case "Bloc1_Level3":
+                    //Bloc1_Level3.Load();
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }

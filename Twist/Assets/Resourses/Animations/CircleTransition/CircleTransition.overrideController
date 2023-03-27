@@ -9,7 +9,7 @@ AnimatorOverrideController:
   m_Name: CircleTransition
   m_Controller: {fileID: 9100000, guid: d931346dbaff6e84eba30f0427d1e2b3, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: 7b500a8e904b12549b7b49add8141102, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 8e3da1ccef1944845865139228d57a49, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: fbc77bc11ba56904f88df39a622834da, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: dfb5b9d0dd2eff74fae750c1a123ba25, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 99fabf94647255a4ca8dc0095cb40216, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7b500a8e904b12549b7b49add8141102, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7a6ed4f5b1e0aba42807da92940efc6a, type: 2}
