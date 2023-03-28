@@ -14,7 +14,7 @@ namespace Assets.Scripts.Components
         [Space][Header("Loaded Scene")]
         public string sceneName;
 
-        public void OnTrigerFinish()
+        public void OnLoadScene()
         {
             StartCoroutine(LoadSceneAnimationtransite(sceneName));
         }
@@ -28,6 +28,9 @@ namespace Assets.Scripts.Components
 
             switch (nextSceneLoad)// crutch xD
             {
+                case "Menu":
+                    Menu.Load();
+                    break;
                 case "Bloc1_Level1":
                     Bloc1_Level1.Load();
                     break;

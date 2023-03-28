@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6316735294362939992}
   - component: {fileID: 6316735294362939999}
   - component: {fileID: 6316735294362939998}
-  - component: {fileID: 1855642497}
   - component: {fileID: 6316735292979423530}
+  - component: {fileID: 1855642497}
   - component: {fileID: 6316735292979423526}
+  - component: {fileID: 6974060835449114210}
   m_Layer: 6
   m_Name: Ball
   m_TagString: Player
@@ -126,18 +127,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &1855642497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6316735294362939997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65321161ba3e6ff4a9b965d78b285af9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!96 &6316735292979423530
 TrailRenderer:
   serializedVersion: 2
@@ -255,6 +244,18 @@ TrailRenderer:
   m_MinVertexDistance: 0.001
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &1855642497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6316735294362939997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65321161ba3e6ff4a9b965d78b285af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6316735292979423526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,3 +268,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ddf85451fb1b7b4d85ab5b38facda72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6974060835449114210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6316735294362939997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6e25a6aa209fc41b872c0ba472afa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectToDestroy: {fileID: 6316735294362939997}
