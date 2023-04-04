@@ -38,7 +38,7 @@ namespace Assets.Scripts.Components
                     Bloc1_Level2.Load();
                     break;
                 case "Bloc1_Level3":
-                    //Bloc1_Level3.Load();
+                    Bloc1_Level3.Load();
                     break;
                 default:
                     break;

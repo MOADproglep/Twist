@@ -544,11 +544,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0ae46a5e2235f74ba7b228493ca1909, type: 3}
+--- !u!1 &734363676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 763036392990156362, guid: d0ae46a5e2235f74ba7b228493ca1909, type: 3}
+  m_PrefabInstance: {fileID: 734363675}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &773349981 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4164760342634711664, guid: d0ae46a5e2235f74ba7b228493ca1909, type: 3}
   m_PrefabInstance: {fileID: 734363675}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &773349982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734363676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc285b1606fb0fd42b29fa99aabad63b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tag: Player
+  _action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1938697629}
+        m_TargetAssemblyTypeName: Assets.Scripts.Components.LoadSceneComponent, Assembly-CSharp
+        m_MethodName: OnLoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &948026787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,6 +1245,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8738294826681837594, guid: c5268a7d47c891647aeaadfa9689eb0e, type: 3}
+      propertyPath: sceneName
+      value: Bloc1_Level3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5268a7d47c891647aeaadfa9689eb0e, type: 3}
 --- !u!4 &1938697628 stripped
@@ -1219,6 +1256,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7646350367717290038, guid: c5268a7d47c891647aeaadfa9689eb0e, type: 3}
   m_PrefabInstance: {fileID: 1938697627}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1938697629 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8738294826681837594, guid: c5268a7d47c891647aeaadfa9689eb0e, type: 3}
+  m_PrefabInstance: {fileID: 1938697627}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c20192d5731b2b4885fd5f56854abb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2138336117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1273,6 +1321,10 @@ PrefabInstance:
     - target: {fileID: 6316735294362939997, guid: 2d1eeca990947d443945241e2c0abab1, type: 3}
       propertyPath: m_Name
       value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316735294362939998, guid: 2d1eeca990947d443945241e2c0abab1, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d1eeca990947d443945241e2c0abab1, type: 3}

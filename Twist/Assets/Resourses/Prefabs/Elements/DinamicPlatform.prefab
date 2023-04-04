@@ -99,15 +99,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 50
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 3
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &6117408345031724252
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -146,4 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efd13382532ded746866bf828a7b7df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedRotation: 5
+  speedRotation: 12
+  onloopMovement: 0
+  loopSpeedRotation: 0
