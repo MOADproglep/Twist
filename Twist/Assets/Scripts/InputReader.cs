@@ -1,19 +1,24 @@
 ﻿using UnityEngine;
-//using Assets.Components;
-//using UnityEditor.SceneManagement;
+using Assets.Components;
+using UnityEditor.SceneManagement;
 
 namespace Assets.Scripts
 {
-    public class InputReader : MonoBehaviour // ругается на присвоение компонента
+    public class InputReader : MonoBehaviour 
     {
-        //private ReloadLevelComponent reloadLevel = new ReloadLevelComponent();
+        private ReloadLevelComponent _reloadLevel;
 
-        //void Update()
-        //{
-        //    if (Input.GetKeyUp(KeyCode.R))
-        //    {
-        //       reloadLevel.Reload();
-        //    }
-        //}
+        private void Awake()
+        {
+            _reloadLevel = GetComponent<ReloadLevelComponent>();
+        }
+
+        void Update()
+        {
+            if (Input.GetKeyUp(KeyCode.R))
+            {
+                _reloadLevel.Reload();
+            }
+        }
     }
 }

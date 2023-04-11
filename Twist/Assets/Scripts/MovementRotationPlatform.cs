@@ -6,35 +6,36 @@ namespace Assets
     {
         [Space][Header("Game mechanics")]
         public float speedRotation;
-        float zVelocity = 0.0f;
-        private float rotationVector;
+        public float zVelocity = 0.0f;
+
+        private float _rotationVector;
 
         [Space][Header("Loop Movement")]
         public bool onloopMovement;
         public float loopSpeedRotation;
 
 
-        private Rigidbody2D rd2D;
+        private Rigidbody2D _rd2D;
 
         private void Awake()
         {
-            rd2D = GetComponent<Rigidbody2D>();
+            _rd2D = GetComponent<Rigidbody2D>();
         }
 
         private void FixedUpdate()
         {
             if (!onloopMovement)
             {
-                rotationVector = Input.GetAxis("Horizontal") * speedRotation;
-                if (rotationVector != 0)
+                _rotationVector = Input.GetAxis("Horizontal") * speedRotation;
+                if (_rotationVector != 0)
                 {
-                    //rd2D.constraints = RigidbodyConstraints2D.FreezePosition;
-                    //float delta = rotationVector * speedRotation * Time.deltaTime;
-                    //float delta = Mathf.SmoothDamp(rotationVector * speedRotation, 0f, ref zVelocity, 0.3f);
+                    //_rd2D.constraints = RigidbodyConstraints2D.FreezePosition;
+                    //float delta = _rotationVector * speedRotation * Time.deltaTime;
+                    //float delta = Mathf.SmoothDamp(_rotationVector * speedRotation, 0f, ref zVelocity, 0.3f);
                     //transform.Rotate(0, 0, delta);
-                    rd2D.angularVelocity = Mathf.SmoothDamp(rotationVector * speedRotation, 0f, ref zVelocity, 0.3f);
+                    _rd2D.angularVelocity = Mathf.SmoothDamp(_rotationVector * speedRotation, 0f, ref zVelocity, 0.3f);
                 }
-                //else rd2D.constraints = RigidbodyConstraints2D.FreezeAll;
+                //else _rd2D.constraints = RigidbodyConstraints2D.FreezeAll;
                 
             }
             else

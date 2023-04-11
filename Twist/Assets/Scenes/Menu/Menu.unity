@@ -271,7 +271,7 @@ PrefabInstance:
       objectReference: {fileID: 1039409635}
     - target: {fileID: 7646350367717290037, guid: c5268a7d47c891647aeaadfa9689eb0e, type: 3}
       propertyPath: m_Name
-      value: LevelLoaded
+      value: LevelLoadedandSave
       objectReference: {fileID: 0}
     - target: {fileID: 7646350367717290038, guid: c5268a7d47c891647aeaadfa9689eb0e, type: 3}
       propertyPath: m_RootOrder
@@ -318,8 +318,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8738294826681837594, guid: c5268a7d47c891647aeaadfa9689eb0e, type: 3}
-      propertyPath: sceneName
-      value: Bloc1_Level1
+      propertyPath: isLoadSession
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5268a7d47c891647aeaadfa9689eb0e, type: 3}

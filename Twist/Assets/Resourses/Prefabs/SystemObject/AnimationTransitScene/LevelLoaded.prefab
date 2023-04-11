@@ -254,6 +254,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7646350367717290038}
   - component: {fileID: 8738294826681837594}
+  - component: {fileID: 7646350367456673254}
+  - component: {fileID: 7646350367456673255}
+  - component: {fileID: 1607962162}
   m_Layer: 0
   m_Name: LevelLoaded
   m_TagString: Untagged
@@ -292,7 +295,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationTransitScene: {fileID: 7168712171594192265}
   transitionTime: 1
-  sceneName: Bloc1_Level2
+  sceneName: Bloc1_Level1
+  isLoadSession: 0
+--- !u!114 &7646350367456673254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7646350367717290037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ddf85451fb1b7b4d85ab5b38facda72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7646350367456673255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7646350367717290037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65321161ba3e6ff4a9b965d78b285af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1607962162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7646350367717290037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fde3b3246bc0247846c52f506b757b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  muteMusicRecord: 0
 --- !u!1 &7646350368215859541
 GameObject:
   m_ObjectHideFlags: 0

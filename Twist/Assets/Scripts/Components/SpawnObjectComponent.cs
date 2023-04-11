@@ -8,7 +8,7 @@ namespace Assets.Scripts.Components
         public GameObject ball;
         public bool needToDestroy;
 
-        private Vector3 poinSpawn;
+        private Vector3 _poinSpawn;
 
         [Space][Header("Time")]
         public float startTime;
@@ -17,7 +17,7 @@ namespace Assets.Scripts.Components
 
         private void Awake()
         {
-            poinSpawn = gameObject.transform.position;
+            _poinSpawn = gameObject.transform.position;
         }
         private void Start()
         {
@@ -25,7 +25,7 @@ namespace Assets.Scripts.Components
         }
         public void OnSpawn()
         {
-            var currentBall = Instantiate(ball, poinSpawn, Quaternion.identity);
+            var currentBall = Instantiate(ball, _poinSpawn, Quaternion.identity);
             if(needToDestroy) Destroy(currentBall, destoyTime);
         }
 

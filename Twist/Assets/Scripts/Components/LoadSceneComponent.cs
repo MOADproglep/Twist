@@ -2,6 +2,7 @@
 using UnityEngine.Events;
 using IJunior.TypedScenes;
 using System.Collections;
+using Assets.Scripts.Model;
 
 namespace Assets.Scripts.Components
 {
@@ -13,10 +14,18 @@ namespace Assets.Scripts.Components
 
         [Space][Header("Loaded Scene")]
         public string sceneName;
+        public bool isLoadSession;
 
         public void OnLoadScene()
         {
-            StartCoroutine(LoadSceneAnimationtransite(sceneName));
+            if (!isLoadSession)
+                StartCoroutine(LoadSceneAnimationtransite(sceneName));
+            else
+            {
+                PlayerData sceneName = SaveLoadCurentData.LoadLastSession();
+                StartCoroutine(LoadSceneAnimationtransite(sceneName.lastUsedLevel));
+            }
+
         }
 
         
