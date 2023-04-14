@@ -295,7 +295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationTransitScene: {fileID: 7168712171594192265}
   transitionTime: 1
-  sceneName: Bloc1_Level1
+  sceneName: 
   isLoadSession: 0
 --- !u!114 &7646350367456673254
 MonoBehaviour:

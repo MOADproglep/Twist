@@ -34,8 +34,22 @@ namespace Assets.Scripts.Model
             }
             else
             {
-                Debug.LogError("Save file not found in " +  path);
+                Debug.LogError("Save file not found in " + path);
                 return null;
+            }
+        }
+
+        public static void ResetDataSession() //Only used for Debug
+        {
+            string path = Application.persistentDataPath + "/gameSession.dat";
+            if (File.Exists(path))
+            {
+                File.Delete(path);
+                Debug.Log("Data reset complete!");
+            }
+            else
+            {
+                Debug.LogError("Save file not found in " + path);
             }
         }
     }
