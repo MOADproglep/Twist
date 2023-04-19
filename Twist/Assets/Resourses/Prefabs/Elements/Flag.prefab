@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4164760342634711664}
   - component: {fileID: 5934919691933553066}
   - component: {fileID: 8468375962815142249}
+  - component: {fileID: 773349982}
   m_Layer: 0
   m_Name: Flag
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763036392990156362}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.515, y: -0.628, z: 0}
   m_LocalScale: {x: 0.6845654, y: 0.6845654, z: 0.6845654}
   m_ConstrainProportionsScale: 0
@@ -111,3 +112,55 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7232004, y: 1.0004001}
   m_EdgeRadius: 0
+--- !u!114 &773349982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763036392990156362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc285b1606fb0fd42b29fa99aabad63b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tag: Player
+  _action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8738294826681837594, guid: c5268a7d47c891647aeaadfa9689eb0e, type: 3}
+        m_TargetAssemblyTypeName: Assets.Scripts.Components.LoadSceneComponent, Assembly-CSharp
+        m_MethodName: OnLoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1607962162, guid: c5268a7d47c891647aeaadfa9689eb0e, type: 3}
+        m_TargetAssemblyTypeName: Assets.Scripts.Model.SaveLoadCurentData, Assembly-CSharp
+        m_MethodName: SaveCurrentSession
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1436096554514764867, guid: 3f46c1142df96324f8565cc471af291c, type: 3}
+        m_TargetAssemblyTypeName: Assets.Scripts.Sound.SoundManager, Assembly-CSharp
+        m_MethodName: OnPlayWinClip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

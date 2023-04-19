@@ -49,7 +49,20 @@ namespace Assets.Scripts.Components
                 case "Bloc1_Level3":
                     Bloc1_Level3.Load();
                     break;
+                case "Bloc1_Level4":
+                    Bloc1_Level4.Load();
+                    break;
+                case "Bloc1_Level5":
+                    Bloc1_Level5.Load();
+                    break;
+                case "Bloc1_Level6":
+                    Bloc1_Level6.Load();
+                    break;
+                case "Bloc1_Level7":
+                    Bloc1_Level7.Load();
+                    break;
                 default:
+                    Debug.Log("No scene name");
                     break;
             }
         }

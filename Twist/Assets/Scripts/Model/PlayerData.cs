@@ -11,7 +11,7 @@ namespace Assets.Scripts.Model
         public PlayerData(string currentLevel, bool muteMusicRecord)
         {
             lastUsedLevel = currentLevel;
-            muteMusicRecord = muteMusic; 
+            muteMusic = muteMusicRecord;
         }
     }
 }

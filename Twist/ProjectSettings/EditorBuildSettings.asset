@@ -104,4 +104,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScene/test.unity
     guid: 66f11814cd391434ba35e4e77c6f11c0
+  - enabled: 0
+    path: Assets/Scenes/Template/StandartTemplate.unity
+    guid: adab6ffa19f25864da9f6b325ea87aeb
+  - enabled: 1
+    path: Assets/Scenes/Bloc1Levels/Bloc1_Level5.unity
+    guid: 10cdffd45028bbd4995dfbd320276d17
+  - enabled: 1
+    path: Assets/Scenes/Bloc1Levels/Bloc1_Level4.unity
+    guid: de528d278f45d7a4e897544644515252
+  - enabled: 1
+    path: Assets/Scenes/Bloc1Levels/Bloc1_Level6.unity
+    guid: 29315af7a3bffff4991c325b7b174341
+  - enabled: 1
+    path: Assets/Scenes/Bloc1Levels/Bloc1_Level7.unity
+    guid: 2218600d159f9b942acb3a042cd8d381
   m_configObjects: {}
