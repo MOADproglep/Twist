@@ -167,6 +167,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1157286687}
     m_Modifications:
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1855642497, guid: 2d1eeca990947d443945241e2c0abab1, type: 3}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1323758423}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Reload
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: OnPlayDeathClip
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Assets.Components.ReloadLevelComponent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Assets.Scripts.Sound.SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2957276168533721596, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
       propertyPath: m_Name
       value: CollisionIsDown
@@ -177,11 +201,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2957276168533721599, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.18
+      value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 2957276168533721599, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.68
+      value: -3.55
       objectReference: {fileID: 0}
     - target: {fileID: 2957276168533721599, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
       propertyPath: m_LocalPosition.z
@@ -805,6 +829,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1157286687}
     m_Modifications:
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1855642497, guid: 2d1eeca990947d443945241e2c0abab1, type: 3}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1323758423}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Reload
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: OnPlayDeathClip
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Assets.Components.ReloadLevelComponent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Assets.Scripts.Sound.SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2957276168533721596, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
       propertyPath: m_Name
       value: CollisionIsDown (2)
@@ -815,7 +863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2957276168533721599, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.57
+      value: -5.9
       objectReference: {fileID: 0}
     - target: {fileID: 2957276168533721599, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
       propertyPath: m_LocalPosition.y
@@ -867,6 +915,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1812087287}
     m_Modifications:
+    - target: {fileID: 1436096554514764868, guid: 3f46c1142df96324f8565cc471af291c, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 2095020725}
+    - target: {fileID: 1436096554514764869, guid: 3f46c1142df96324f8565cc471af291c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3286163911610860551, guid: dfafc0b0cac7f0047b8bcb26fb03bfb7, type: 3}
     - target: {fileID: 1436096554514764870, guid: 3f46c1142df96324f8565cc471af291c, type: 3}
       propertyPath: m_Name
       value: Sound
@@ -917,7 +973,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1436096554514764871, guid: 3f46c1142df96324f8565cc471af291c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1436096554514764871, guid: 3f46c1142df96324f8565cc471af291c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1016,6 +1072,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1157286687}
     m_Modifications:
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1855642497, guid: 2d1eeca990947d443945241e2c0abab1, type: 3}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1323758423}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Reload
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: OnPlayDeathClip
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Assets.Components.ReloadLevelComponent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957276168533721593, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Assets.Scripts.Sound.SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2957276168533721596, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
       propertyPath: m_Name
       value: CollisionIsDown (1)
@@ -1026,11 +1106,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2957276168533721599, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.61
+      value: 5.9
       objectReference: {fileID: 0}
     - target: {fileID: 2957276168533721599, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.45
+      value: -0.19
       objectReference: {fileID: 0}
     - target: {fileID: 2957276168533721599, guid: 8d9a911a86eb1f1478e08737ed1d5135, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1525,6 +1605,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c20192d5731b2b4885fd5f56854abb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2095020725 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1436096554514764869, guid: 3f46c1142df96324f8565cc471af291c, type: 3}
+  m_PrefabInstance: {fileID: 1323758421}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2138336117

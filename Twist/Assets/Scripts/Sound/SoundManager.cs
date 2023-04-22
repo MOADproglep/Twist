@@ -56,7 +56,7 @@ namespace Assets.Scripts.Sound
                 button.image.sprite = offSoundImage;
                 _isPlaying = false;
 
-                SaveLoadCurentData.muteMusicRecord = true;
+                _saveLoadCurentData.muteMusicRecord = true;
                 _saveLoadCurentData.SaveCurrentSession();
             }
             else
@@ -65,7 +65,7 @@ namespace Assets.Scripts.Sound
                 button.image.sprite = onSoundImage;
                 _isPlaying = true;
 
-                SaveLoadCurentData.muteMusicRecord = false;
+                _saveLoadCurentData.muteMusicRecord = false;
                 _saveLoadCurentData.SaveCurrentSession();
             }
         }

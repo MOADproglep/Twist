@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using Assets.Components;
-using UnityEditor.SceneManagement;
 
 namespace Assets.Scripts
 {

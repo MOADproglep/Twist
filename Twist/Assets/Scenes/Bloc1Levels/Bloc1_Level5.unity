@@ -477,6 +477,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: DinamicPlatformModular
       objectReference: {fileID: 0}
+    - target: {fileID: 8772719118731332814, guid: 32edb3bd188f04441830123522ea8b0f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8772719119316739014, guid: 32edb3bd188f04441830123522ea8b0f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32edb3bd188f04441830123522ea8b0f, type: 3}
 --- !u!1001 &822706872

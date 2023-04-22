@@ -61,6 +61,19 @@ namespace Assets.Scripts.Components
                 case "Bloc1_Level7":
                     Bloc1_Level7.Load();
                     break;
+                case "Bloc1_Level8":
+                    Bloc1_Level8.Load();
+                    break;
+                case "Bloc1_Level9":
+                    Bloc1_Level9.Load();
+                    break;
+                case "Bloc1_Level10":
+                    Bloc1_Level10.Load();
+                    break;
+                case "Bloc1_Level11":
+                    Bloc1_Level11.Load();
+                    break;
+
                 default:
                     Debug.Log("No scene name");
                     break;

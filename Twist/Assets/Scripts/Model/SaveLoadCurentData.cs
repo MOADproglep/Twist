@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Assets.Scripts.Components;
+using System;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts.Model
@@ -6,14 +8,8 @@ namespace Assets.Scripts.Model
     public class SaveLoadCurentData : MonoBehaviour
     {
         private string _currentLevel;
-<<<<<<< Updated upstream
-        public bool muteMusicRecord;
 
-        private void Awake()
-        {
-            _currentLevel = SceneManager.GetActiveScene().name;
-=======
-
+        [NonSerialized]public bool muteMusicRecord;
         private LoadSceneComponent _nextLevel;
 
 
@@ -34,7 +30,6 @@ namespace Assets.Scripts.Model
             //_nextLevel = GetComponent<LoadSceneComponent>();
             //_currentLevel = _nextLevel.sceneName;
             //_currentLevel = SceneManager.GetActiveScene().name;
->>>>>>> Stashed changes
         }
         public void SaveCurrentSession()
         {

@@ -211,6 +211,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 758558864}
     m_Modifications:
+    - target: {fileID: 1436096554514764867, guid: 3f46c1142df96324f8565cc471af291c, type: 3}
+      propertyPath: onSoundImage
+      value: 
+      objectReference: {fileID: 3286163911610860551, guid: dfafc0b0cac7f0047b8bcb26fb03bfb7, type: 3}
+    - target: {fileID: 1436096554514764867, guid: 3f46c1142df96324f8565cc471af291c, type: 3}
+      propertyPath: offSoundImage
+      value: 
+      objectReference: {fileID: 3286163911610860551, guid: 67653571b86622c48af49482af970e91, type: 3}
+    - target: {fileID: 1436096554514764869, guid: 3f46c1142df96324f8565cc471af291c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3286163911610860551, guid: dfafc0b0cac7f0047b8bcb26fb03bfb7, type: 3}
     - target: {fileID: 1436096554514764870, guid: 3f46c1142df96324f8565cc471af291c, type: 3}
       propertyPath: m_Name
       value: Sound
@@ -1248,7 +1260,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
