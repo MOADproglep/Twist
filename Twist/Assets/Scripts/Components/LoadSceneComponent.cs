@@ -73,6 +73,9 @@ namespace Assets.Scripts.Components
                 case "Bloc1_Level11":
                     Bloc1_Level11.Load();
                     break;
+                case "Bloc2_Level1":
+                    Bloc2_Level1.Load();
+                    break;
 
                 default:
                     Debug.Log("No scene name");

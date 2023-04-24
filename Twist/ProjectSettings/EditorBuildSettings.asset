@@ -131,4 +131,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bloc1Levels/Bloc1_Level11.unity
     guid: 996e49f02a72b0e4e8f5f21a8d7c9d3d
+  - enabled: 1
+    path: Assets/Scenes/Bloc2Levels/Bloc2_Level1.unity
+    guid: ca63042eb030fd242ab13b0a4b568c90
   m_configObjects: {}
