@@ -38,5 +38,6 @@ namespace Assets.Scripts.Model
                 return null;
             }
         }
+
     }
 }

@@ -7,7 +7,7 @@ namespace Assets.Scripts.Sound
 
     public class SoundManager : MonoBehaviour
     {
-        private bool _isPlaying = true;
+        private bool _isPlaying;
         private GameObject _soundSourseInScene;
         private GameObject _LevelLoadedandSave;
         private AudioSource _audioSource;
@@ -39,12 +39,15 @@ namespace Assets.Scripts.Sound
 
                 if(!_audioSource.isPlaying)
                     _audioSource.Play();
+
+                _saveLoadCurentData.muteMusicRecord = false;
             }
             else if (data != null && data.muteMusic)
             {
                 button.image.sprite = offSoundImage;
                 _isPlaying = false;
                 _audioSource.Stop();
+                _saveLoadCurentData.muteMusicRecord = true;
             }
         }
 
