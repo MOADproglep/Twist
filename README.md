@@ -4,7 +4,7 @@
 Beta version of the game for the web platform [Yandex.Games](https://yandex.ru/games/)
 
 ## Control
-A/D - Platform rotation R - Level reset
+A/D - Platform rotation R - Level reset Space - activation of the piston
 
 ## What's interesting about the game?
 - Interesting levels
@@ -35,7 +35,7 @@ The sounds are taken from free resources.
 Бета-версия игры для веб-платформы [Яндекс.Игры](https://yandex.ru/games/) 
 
 ## Управление
-A/D - Поворот платформ R - перезагрузка уровня
+A/D - Поворот платформ R - перезагрузка уровня Пробел - активация поршня
 
 ## Что интересного в игре?
 - Интересные уровни
