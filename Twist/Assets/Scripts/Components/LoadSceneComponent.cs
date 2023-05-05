@@ -40,8 +40,12 @@ namespace Assets.Scripts.Components
                 case "Menu":
                     Menu.Load();
                     break;
+                //Bloc1
                 case "Bloc1_Level1":
                     Bloc1_Level1.Load();
+                    break;
+                case "Bloc1_Level1_1":
+                    Bloc1_Level1_1.Load();
                     break;
                 case "Bloc1_Level2":
                     Bloc1_Level2.Load();
@@ -54,6 +58,9 @@ namespace Assets.Scripts.Components
                     break;
                 case "Bloc1_Level5":
                     Bloc1_Level5.Load();
+                    break;
+                case "Bloc1_Level5_1":
+                    Bloc1_Level5_1.Load();
                     break;
                 case "Bloc1_Level6":
                     Bloc1_Level6.Load();
@@ -73,10 +80,31 @@ namespace Assets.Scripts.Components
                 case "Bloc1_Level11":
                     Bloc1_Level11.Load();
                     break;
+                //Bloc2
                 case "Bloc2_Level1":
                     Bloc2_Level1.Load();
                     break;
-
+                case "Bloc2_Level1_1":
+                    Bloc2_Level1_1.Load();
+                    break;
+                case "Bloc2_Level2":
+                    Bloc2_Level2.Load();
+                    break;
+                case "Bloc2_Level3":
+                    Bloc2_Level3.Load();
+                    break;
+                case "Bloc2_Level4":
+                    Bloc2_Level4.Load();
+                    break;
+                case "Bloc2_Level5":
+                    Bloc2_Level5.Load();
+                    break;
+                case "Bloc2_Level6":
+                    Bloc2_Level6.Load();
+                    break;
+                case "Bloc2_Level7":
+                    Bloc2_Level7.Load();
+                    break;
                 default:
                     Debug.Log("No scene name");
                     break;

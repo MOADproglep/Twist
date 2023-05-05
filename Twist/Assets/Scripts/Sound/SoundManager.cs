@@ -85,5 +85,9 @@ namespace Assets.Scripts.Sound
         {
             if (_isPlaying) _audioSource.PlayOneShot(audioClips[2]);
         }
+        public void OnPlayPistonClip()
+        {
+            if (_isPlaying) _audioSource.PlayOneShot(audioClips[3]);
+        }
     }
 }

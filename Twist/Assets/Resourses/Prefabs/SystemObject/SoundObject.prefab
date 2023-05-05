@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1058689952942969211}
   - component: {fileID: 1058689952942969208}
-  - component: {fileID: 2034446597}
+  - component: {fileID: 4242424440656423959}
   m_Layer: 0
   m_Name: SoundObject
   m_TagString: Untagged
@@ -44,7 +44,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dad1ee2abdf6ef7419490bb725b21654, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
@@ -129,7 +129,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2034446597
+--- !u!114 &4242424440656423959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,6 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1058689952942969210}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 759e8731e4b8cf441ba21814d2749afa, type: 3}
+  m_Script: {fileID: 11500000, guid: 640502eb239f5964fabbebcbcc2d1874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

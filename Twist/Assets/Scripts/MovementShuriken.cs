@@ -5,8 +5,8 @@ namespace Assets.Scripts
     public class MovementShuriken : MonoBehaviour
     {
         public Transform[] points;
-        public float speed;
         public float forwardSpeed;
+        public float speed;
 
         private int _nextPointIndex;
         private Transform _nextPoint;
@@ -16,7 +16,7 @@ namespace Assets.Scripts
         {
             _nextPoint = points[0];
         }
-        private void Update()
+        private void FixedUpdate()
         {
             transform.Rotate(0, 0, forwardSpeed);
 
@@ -31,7 +31,7 @@ namespace Assets.Scripts
             }
             else
             {
-                transform.position = Vector3.MoveTowards(transform.position, _nextPoint.position, speed);
+                transform.position = Vector3.MoveTowards(transform.position, _nextPoint.position, speed * Time.deltaTime);
             }
         }
     }
