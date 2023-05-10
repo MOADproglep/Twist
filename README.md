@@ -1,7 +1,7 @@
 # Twist EN
 ![TwistReadmi](https://user-images.githubusercontent.com/62516414/234299342-236d8966-1ef4-413e-9e03-623fa2227700.gif)
 
-Beta version of the game for the web platform [Yandex.Games](https://yandex.ru/games/)
+Release version of the game for the web platform [Yandex.Games](https://yandex.ru/games/)
 
 ## Control
 A/D - Platform rotation R - Level reset Space - activation of the piston
@@ -32,7 +32,7 @@ The sounds are taken from free resources.
 # Twist RU
 ![TwistReadmi](https://user-images.githubusercontent.com/62516414/234299342-236d8966-1ef4-413e-9e03-623fa2227700.gif)
 
-Бета-версия игры для веб-платформы [Яндекс.Игры](https://yandex.ru/games/) 
+Релизная версия игры для веб-платформы [Яндекс.Игры](https://yandex.ru/games/) 
 
 ## Управление
 A/D - Поворот платформ R - перезагрузка уровня Пробел - активация поршня
